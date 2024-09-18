@@ -20,7 +20,9 @@ Installation instructions
 
 This plugin can be installed directly from github using:
 
-pip install git+https://github.com/joeycasey87/pysteps_postprocessor_diagnostics_prtype
+.. code-block:: console
+
+  $ pip install git+https://github.com/joeycasey87/pysteps_postprocessor_diagnostics_prtype
 
 Credits
 =======
