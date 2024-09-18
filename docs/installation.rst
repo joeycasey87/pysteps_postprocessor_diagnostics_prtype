@@ -16,7 +16,7 @@ To install pysteps-postprocessor-diagnostics-prtype, run this command in your te
 
 .. code-block:: console
 
-    $ pip install pysteps_postprocessor_diagnostics_prtype
+    $ pip install git+https://github.com/joeycasey87/pysteps_postprocessor_diagnostics_prtype
 
 
 .. The following installation instructions are recommended if the plugin needs to be installed
