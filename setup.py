@@ -15,7 +15,7 @@ setup_requirements = ['pytest-runner']
 
 test_requirements = ['pytest>=3']
 
-entry_label = 'pysteps.plugins.' + 'postprocessor'
+entry_label = 'pysteps.plugins.' + 'postprocessors'
 
 entry = {
     entry_label: [
@@ -57,7 +57,7 @@ setup(
     # An entry point is defined by three properties:
     # - The group that an entry point belongs indicate the kind of functionality that
     #   provides. For the pysteps importers use the "pysteps.plugins.importers" group.
-    #   For the pysteps diagnostic postprocessors use the "pysteps.plugins.postprocessor" group.
+    #   For the pysteps diagnostic postprocessors use the "pysteps.plugins.postprocessors" group.
     # - The unique name that is used to identify this entry point in the
     #   "pysteps.plugins.importers" group.
     # - A reference to a Python object. For the pysteps importers, the object should

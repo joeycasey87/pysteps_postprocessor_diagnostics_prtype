@@ -28,10 +28,11 @@ def test_plugins_discovery():
                 assert postprocessor in pp_interface._ensemblestats_methods
 
 
-def test_importers_with_files():
-    """Additionally, you can test that your plugin correctly reads the corresponding
-    some example data.
+def test_prtype_discovery():
+    """ Check if the present plugin is correctly detected by pysteps. For this,
+    the tests should be ran on the installed version of the plugin (and not
+    against the plugin sources).
     """
+    from pysteps.postprocessing import interface as pp_interface
+    assert "prtype" in pp_interface._diagnostics_methods
 
-    # Write the test here.
-    pass
